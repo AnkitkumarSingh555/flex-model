@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+	*{ margin: 0;padding: 0;box-sizing:border-box;}
+               section{width: 100% ;background: cyan;display: flex;flex-direction: column; }
+    holding container{
+    	             width: 100%
+    	             display:flex;
+                 background: #ffc728;
+                 padding: 50px;
+                 box-sizing: border-box;
+                 flex-direction: row;
+    	      
+      internalcontainerimg{
+      	flex:1;
+      background: green;
+      font-size: 12px; 
+    font-family: 'Roboto',sans-serif 
+
+}
+     internalcontainerM {
+     	flex:1;
+      background: pink;
+      font-size: 12px; 
+    font-family: 'Roboto',sans-serif 
+
+     }
+    internalcontainerR{
+	flex:1;
+      background: cyan;
+    padding: 30px;
+    font-size: 12px; 
+    font-family: 'Roboto',sans-serif 
+
+       }
+         @media screen and (max-width: 768px)
+         {  
+           holding container{
+            flex-direction: column;
+
+
+         }
+
+</style>
+</head>
+<body>	
+<img src="https://source.unsplash.com/user/erondu/460x345" width="460" height="345">
+<img src="https://source.unsplash.com/WLUHO9A_xik/460x345"width="460"height="345">
+<img src="https://source.unsplash.com/collection/190727/460x345 "width="460" height="345">
+<div class ="holding container">
+
+<div class= "holdingcontainerimg">
+<div class= "internalcontainerimg"></div>
+ <div class="internalcontainerR"></div>
+<div class="internalcontainerM" > </div>
+</div>
+</body>
+</html>
+
